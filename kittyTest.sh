@@ -1,3 +1,3 @@
-#!/local/bin/bash
+#!/bin/bash
 
 echo "This is a kitty shell test!"
