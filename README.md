@@ -58,12 +58,32 @@ Follow these steps to install and run the kitty shell project locally:
 - Click on this icon in the bottom-left of the VSCode interface: <img width="40" height="24" alt="image" src="https://github.com/user-attachments/assets/0e255eb3-8acb-4af9-83a0-4cc4569dc669" />
 - Select the 'Connect to WSL' option
 
-#### 2. Clone the repository
+#### 2. Open a terminal on VSCode
+Click Terminal > New terminal
+
+#### 3. Clone the repository
 ```bash
 git clone https://github.com/AmativeOwl/kitty-shell.git
 ```
 
-#### 3. Navigate to the project folder 
+#### 4. Navigate to the project folder
 ```bash
-cd uv-project
+cd kitty-shell
 ```
+
+#### 5. Install commands 
+```bash
+./install.sh
+```
+
+#### 6. Compile and run the shell
+```bash
+gcc kittyShell.c -o kittyShell
+```
+
+```bash
+./kittyShell
+```
+
+## Usage <a id="usage"></a>
+In the terminal, 
