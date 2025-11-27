@@ -18,7 +18,7 @@ C, Bash
 
 ## Pre-Requisites <a id="pre-reqs"></a>
 1. Install VSCode: Download from [Visual Studio Code](https://code.visualstudio.com/) and install the C/C++ extension.
-2. Install WSL and Ubuntu: Enable Windows Subsystem for Linux and install Ubuntu from the Microsoft Store. <br>
+2. Install WSL and Ubuntu: <br>
    Open PowerShell in **Administrator** mode.
    Inside PowerShell (Admin) run:
    ```wsl --install```
@@ -31,7 +31,13 @@ C, Bash
    /norestart
    wsl --set-default-version 2
     ```
+   <br> 
+   To apply the WSL installation above, restart your computer. <br>
+   After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
+   Once installed, open Ubuntu from the Start menu. <br>
+   Follow the in-screen instructions to set your username and password. <br>
 
+   **Note**: It is important that you remember your password as it will be needed to run ```sudo``` commands.
    
 4. Install the GCC Compiler in WSL Ubuntu: <br>
    Inside WSL, run:
