@@ -86,4 +86,9 @@ gcc kittyShell.c -o kittyShell
 ```
 
 ## Usage <a id="usage"></a>
-In the terminal, 
+In the terminal, you have the option to run both Linux commands and the kitty-themed commands. For all intents and purposes, this file will only cover the kitty-themed commands:
+- ksHelp: offers you a comprehensive guide to all kitty-themed commands
+- kittyTest: displays a message in the terminal - "This is a kitty shell test!"
+- seePortrait: displays a portrait of a kitty
+- randomQuote: displays a randomly selected cat-themed quote from a quote bank
+- bye: exits the program with a custom message in the terminal - "Bye for now!"
