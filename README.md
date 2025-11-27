@@ -37,7 +37,7 @@ C, Bash
    - Open the Microsoft Store, search for Ubuntu, and install it.
    - Launch Ubuntu from the Start menu and follow the instructions to set your username and password.
 
-   **Note**: Remember your password — you’ll need it for `sudo` commands.
+   **Note**: Remember your password because you’ll need it for `sudo` commands!
 
 3. **Install GCC Compiler in WSL Ubuntu**
    - Inside WSL, run:
