@@ -19,27 +19,21 @@ C, Bash
 ## Pre-Requisites <a id="pre-reqs"></a>
 1. Install VSCode: Download from [Visual Studio Code](https://code.visualstudio.com/) and install the C/C++ extension.
 2. Install WSL and Ubuntu: <br>
-   <ul>
-      <li>Open PowerShell in **Administrator** mode.</li>
-      <ul>
-         <li>Inside PowerShell (Admin) run:
-            ```wsl --install```
-         </li>
-         <li>Alternatively, if the ```--install``` command is not supported, run:
-         ```
+   2.1 Open PowerShell in **Administrator** mode. <br>
+   2.2A Inside PowerShell (Admin) run: 
+   ```wsl --install``` <br>
+   2.2B Alternatively, if the ```--install``` command is not supported, run:
+   ```
    dism.exe /online /enable-feature
    /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
    /norestart
    wsl --set-default-version 2
-    ```</li>
-      </ul>
-   </ul>
-   <br> 
-   To apply the WSL installation above, restart your computer. <br>
-   After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
-   Once installed, open Ubuntu from the Start menu. <br>
-   Follow the in-screen instructions to set your username and password. <br>
+    ```
+   2.3 To apply the WSL installation above, restart your computer. <br>
+   2.4 After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
+   2.5 Once installed, open Ubuntu from the Start menu. <br>
+   2.6 Follow the in-screen instructions to set your username and password. <br>
 
    **Note**: It is important that you remember your password as it will be needed to run ```sudo``` commands.
    
