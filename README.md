@@ -17,3 +17,30 @@ Indeed, this was a basic, light-hearted extension beyond my course that not only
 C, Bash
 
 ## Pre-Requisites <a id="pre-reqs"></a>
+1. Install VSCode: Download from [Visual Studio Code](https://code.visualstudio.com/) and install the C/C++ extension.
+2. Install WSL and Ubuntu:
+   Open PowerShell in **Administrator** mode.
+   Inside PowerShell (Admin) run:
+   ```wsl --install```
+   
+   Alternatively, if the ```--install``` command is not supported, run:
+   ```
+   dism.exe /online /enable-feature
+   /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
+   /norestart
+   wsl --set-default-version 2
+    ```
+
+   
+4. Install the GCC Compiler in WSL Ubuntu:
+   Inside WSL, run:
+   ```bash
+   sudo apt update
+   sudo apt install gcc
+   ```
+
+   To verify GCC installation, run:
+   ```bash
+   gcc --version
+   ```
