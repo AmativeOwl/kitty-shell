@@ -18,7 +18,7 @@ C, Bash
 
 ## Pre-Requisites <a id="pre-reqs"></a>
 1. Install VSCode: Download from [Visual Studio Code](https://code.visualstudio.com/) and install the C/C++ extension.
-2. Install WSL and Ubuntu:
+2. Install WSL and Ubuntu: Enable Windows Subsystem for Linux and install Ubuntu from the Microsoft Store.
    Open PowerShell in **Administrator** mode.
    Inside PowerShell (Admin) run:
    ```wsl --install```
