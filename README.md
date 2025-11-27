@@ -19,10 +19,10 @@ C, Bash
 ## Pre-Requisites <a id="pre-reqs"></a>
 1. Install VSCode: Download from [Visual Studio Code](https://code.visualstudio.com/) and install the C/C++ extension.
 2. Install WSL and Ubuntu: <br>
-   2.1    Open PowerShell in **Administrator** mode. <br>
-   2.2A   Inside PowerShell (Admin) run: 
+   2.1>    Open PowerShell in **Administrator** mode. <br>
+   2.2A>   Inside PowerShell (Admin) run: 
           ```wsl --install``` <br>
-   2.2B   Alternatively, if the ```--install``` command is not supported, run:
+   2.2B>   Alternatively, if the ```--install``` command is not supported, run:
          ```
          dism.exe /online /enable-feature
          /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
@@ -30,20 +30,20 @@ C, Bash
          /norestart
          wsl --set-default-version 2
           ```
-   2.3    To apply the WSL installation above, restart your computer. <br>
-   2.4    After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
-   2.5    Once installed, open Ubuntu from the Start menu. <br>
-   2.6    Follow the in-screen instructions to set your username and password. <br>
+   2.3>    To apply the WSL installation above, restart your computer. <br>
+   2.4>    After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
+   2.5>    Once installed, open Ubuntu from the Start menu. <br>
+   2.6>    Follow the in-screen instructions to set your username and password. <br>
 
    **Note**: It is important that you remember your password as it will be needed to run ```sudo``` commands.
    
 3. Install the GCC Compiler in WSL Ubuntu: <br>
-   3.1    Inside WSL, run:
+   3.1>    Inside WSL, run:
           ```bash
           sudo apt update
           sudo apt install gcc
-          ```
-   3.2    To verify GCC installation, run:
+          ``` <br>
+   3.2>    To verify GCC installation, run:
           ```bash
           gcc --version
-          ```
+          ``` <br>
