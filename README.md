@@ -22,14 +22,14 @@ C, Bash
    2.1>    Open PowerShell in **Administrator** mode. <br>
    2.2A>   Inside PowerShell (Admin) run: 
           ```wsl --install``` <br>
-   2.2B>   Alternatively, if the ```--install``` command is not supported, run:
+   2.2B>   Alternatively, if the ```--install``` command is not supported, run: <br>
          ```
          dism.exe /online /enable-feature
          /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
          dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
          /norestart
          wsl --set-default-version 2
-          ```
+          ``` <br>
    2.3>    To apply the WSL installation above, restart your computer. <br>
    2.4>    After restarting, open the Microsoft store, search for Ubuntu and install it. <br>
    2.5>    Once installed, open Ubuntu from the Start menu. <br>
@@ -38,12 +38,12 @@ C, Bash
    **Note**: It is important that you remember your password as it will be needed to run ```sudo``` commands.
    
 3. Install the GCC Compiler in WSL Ubuntu: <br>
-   3.1>    Inside WSL, run:
+   3.1>    Inside WSL, run: <br>
           ```bash
           sudo apt update
           sudo apt install gcc
           ``` <br>
-   3.2>    To verify GCC installation, run:
+   3.2>    To verify GCC installation, run: <br>
           ```bash
           gcc --version
           ``` <br>
