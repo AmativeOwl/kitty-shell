@@ -12,6 +12,8 @@ Indeed, this was a basic, light-hearted extension beyond my course that not only
 ## Table of Contents
 [Tech Stack](#tech-stack) <br>
 [Pre-Requisites](#pre-reqs) <br>
+[Installation](#installation) <br>
+[Usage](#usage)
 
 ## Tech Stack <a id="tech-stack"></a>
 C, Bash
@@ -49,3 +51,19 @@ C, Bash
      ```bash
      gcc --version
      ```
+
+## Installation <a id="installation"></a>
+Follow these steps to install and run the kitty shell project locally:
+#### 1. Connect to WSL in VSCode
+- Click on this icon in the bottom-left of the VSCode interface: <img width="40" height="24" alt="image" src="https://github.com/user-attachments/assets/0e255eb3-8acb-4af9-83a0-4cc4569dc669" />
+- Select the 'Connect to WSL' option
+
+#### 2. Clone the repository
+```bash
+git clone https://github.com/AmativeOwl/kitty-shell.git
+```
+
+#### 3. Navigate to the project folder 
+```bash
+cd uv-project
+```
